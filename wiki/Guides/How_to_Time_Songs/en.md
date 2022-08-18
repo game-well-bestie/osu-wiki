@@ -10,20 +10,16 @@ needs_cleanup: true
 
 ## Introduction
 
-Timing a song is, in fact, not as complicated as it may seem at first glance. You only need two things: a sense of rhythm and some dexterity. An ear for music and experience playing rhythm games are not required, but can help improve the outcome of your map.
-
-You are also supposed to know what [BPM](/wiki/Beatmapping/Beats_per_minute) and [offset](/wiki/Disambiguation/Offset) are, and how to set uninherited timing points (often called red offsets).
+Timing a song is, in fact, not as complicated as it may seem at first glance. You only need two things: a sense of rhythm and some dexterity. You are also supposed to know what [BPM](/wiki/Beatmapping/Beats_per_minute) and [offset](/wiki/Disambiguation/Offset) are, and how to set uninherited timing points (often called red offsets).
 
 ## Preparing the .mp3 file
 
-If you are going to work on a beatmap and get it ranked (or approved), it is necessary for an audio file to have a bitrate between 128 and 192 kbps. (This is to ensure that songs are of acceptable quality and don't take too much space on the server and your hard drive). You can see the audio bitrate by right clicking it and selecting Properties, then Details tab. If you don't know how to reduce the bitrate (usually down to 192 kbps), there's a [wiki page](/wiki/Guides/Audio_Editing) and [our own professor's lecture {Direct to YouTube}](https://www.youtube.com/watch?v=muu3HkG38kk). You can ask your friends or you can ask around in Chat Console. If all else fails, search/ask on [forums](https://osu.ppy.sh/community/forums/56) or find a way yourself.
-
-The preparations may range from trimming to adding/removing any sound effects. All this is **best done before timing**, as **any** audio edits, including re-encoding, will *change the timing*.
+If you wish to [edit](wiki/Guides/Audio_Editing) your audio, do so before timing the beatmap. The audio file must have an average bit rate [no greater than 192 kbps](wiki/Guides/Compressing_files/) and no less than 128 kbps, if such a source exists. (Otherwise, use the highest quality available.)
 
 ## Single timing (One Red)
 
 ### Goals and Objectives
-
+ 
 Almost any song has rhythm, which works the same way as human skeleton. It's the base where the whole song is built on; it is followed by musical instruments, and if the song has vocals, they also follow it. Each music has its own structure, and our timing task here is to deduce and recreate the structure.
 
 Try to immerse yourself and imagine the structure of music, you can take the usual line division (music sheet of 4/4, Standard Time Signature) into it — these are the places where the notes are located, and the distance between them is given by song's BPM (higher BPM = lesser time taken to complete one time signature/measure). This can be visually observed through the timeline in the editor at the top of the screen. Offset is the time difference between the first beat of the time signature (red offset) and the time in the .mp3 file. You can also check [this article on Wikipedia](https://en.wikipedia.org/wiki/Rhythm).
